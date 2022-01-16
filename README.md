@@ -36,7 +36,7 @@
   <li>You can view all courses of the selected mentor</li>
   <li>Adding comments to courses is done using an ajax request</li>
   <li>On the course page there is an online code editor (itproger.com)</li>
-</ol>>
+</ol>
 
 ## Games on site
 <p><b>Game Logic</b> - written in pure Java Script</p>
