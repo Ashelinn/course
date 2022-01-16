@@ -1,0 +1,333 @@
+﻿/*--------------------------------
+Стили игрового поля
+---------------------------------- */
+.board {
+    width: 550px;
+    height: 775px;
+     background: url('../img/logic-img/board.jpg'), no-repeat;
+}
+
+/*--------------------------------
+Стили контейнеров
+---------------------------------- */
+.wrap {
+    position: relative;
+    width: 212px;
+    height: 100%;
+    margin-left: 32px;
+}
+
+#wrap-prompt {
+    position: relative;
+    width: 130px;
+    height: 100%;
+    margin-left: 24px;
+}
+
+.flex-wrap {
+    display: flex;
+    height: 100%;
+}
+
+.line-flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#button-wrap{
+    width: 80px;
+    margin-left: 45px;
+    position: relative;
+}
+
+#hidden-colors {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+}
+
+#message {
+    width: 550px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#message p {
+    margin: 0px;
+}
+
+#message .line-flex {
+    padding: 10px 0px;
+    background-color: #a2bfc5;
+}
+
+.fon {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #28231c;
+}
+/*----------------------------------------
+Стили кнопок СТАРт, СДАТЬСЯ, ОТПРАВИТЬ
+------------------------------------------ */
+#start, #stop {
+    margin-right: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #28231c;
+    color: #a2bfc5;
+    border: 3px solid #a2bfc5;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.8 ease;
+}
+
+#start:hover, #stop:hover  {
+    border-color: #b7a78e;
+    color: #b7a78e;
+}
+
+#stop {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+.done {
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #28231c;
+    border-radius: 4px;
+    background-color: #a2bfc5;
+    transition: background-color 0.5 ease;
+}
+
+.done:hover {
+    background-color: #28231c;
+    color: #a2bfc5;
+}
+
+/*----------------------------------------
+Стили цветных кружков
+------------------------------------------ */
+.gray {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(141, 140, 140);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red, .small_red{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(252, 88, 59);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.orange, .small_orange {
+    width: 30px;
+    height: 30px;
+    background-color: #FF8C00;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blue, .small_blue {
+    width: 30px;
+    height: 30px;
+    background-color: #00BFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.green, .small_green {
+    width: 30px;
+    height: 30px;
+    background-color: #6B8E23;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.violet, .small_violet {
+    width: 30px;
+    height: 30px;
+    background-color: #7B68EE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pink, .small_pink {
+    width: 30px;
+    height: 30px;
+    background-color: #FF69B4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.yellow, .small_yellow {
+    width: 30px;
+    height: 30px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.small {
+    width: 20px;
+    height: 20px;
+}
+
+/*----------------------------------------
+Стили для линий попыток
+------------------------------------------ */
+/*---------- 1 ------------*/
+#line-one, #button-one {
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+}
+
+#prompt-one {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+
+/*---------- 2 ------------*/
+#line-two, #button-two {
+    position: absolute;
+    left: 0;
+    bottom: 124px;
+}
+
+#prompt-two {
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+}
+
+/*---------- 3 ------------*/
+#line-three, #button-three {
+    position: absolute;
+    left: 0;
+    bottom: 184px;
+}
+
+#prompt-three {
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+}
+
+/*---------- 4 ------------*/
+#line-four, #button-four {
+    position: absolute;
+    left: 0;
+    bottom: 244px;
+}
+
+#prompt-four {
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+}
+
+/*---------- 5 ------------*/
+#line-five, #button-five {
+    position: absolute;
+    left: 0;
+    bottom: 304px;
+}
+
+#prompt-five {
+    position: absolute;
+    left: 0;
+    bottom: 310px;
+}
+
+/*---------- 6 ------------*/
+#line-six, #button-six {
+    position: absolute;
+    left: 0;
+    bottom: 364px;
+}
+
+#prompt-six {
+    position: absolute;
+    left: 0;
+    bottom: 370px;
+}
+
+/*---------- 7 ------------*/
+#line-seven, #button-seven {
+    position: absolute;
+    left: 0;
+    bottom: 424px;
+}
+
+#prompt-seven {
+    position: absolute;
+    left: 0;
+    bottom: 430px;
+}
+
+/*---------- 8 ------------*/
+#line-eight, #button-eight {
+    position: absolute;
+    left: 0;
+    bottom: 484px;
+}
+
+#prompt-eight {
+    position: absolute;
+    left: 0;
+    bottom: 490px;
+}
+
+/*---------- 9 ------------*/
+#line-nine, #button-nine {
+    position: absolute;
+    left: 0;
+    bottom: 544px;
+}
+
+#prompt-nine {
+    position: absolute;
+    left: 0;
+    bottom: 552px;
+}
+
+/*---------- 10 ------------*/
+#line-ten, #button-ten {
+    position: absolute;
+    left: 0;
+    bottom: 604px;
+}
+
+#prompt-ten {
+    position: absolute;
+    left: 0;
+    bottom: 614px;
+}
+
+/*Вывод сообщений о проигрыше / выигрыше*/
+.result-message {
+    display: none;
+    position: fixed;
+    top: 400px;
+    z-index: 500;
+    padding: 100px 80px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

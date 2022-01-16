@@ -1,0 +1,327 @@
+/*--------------------------------------
+media-запрос для среднего экрана
+--------------------------------------*/
+@media screen and (max-width: 1200px) {
+    .right {
+        margin-left: 145px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .main-form_select {
+        font-size: 18px;
+    }
+
+    .mentors-title {
+        font-size: 48px;
+    }
+
+    .testimonial-title {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .mentors-img {
+        width: 345px;
+    }
+
+    .mentors-text h3 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-wrap {
+        display: block;
+    }
+
+    .testimonial-card {
+        margin-top: 60px;
+    }
+
+    .footer-copy {
+        text-align: left;
+    }
+
+
+    .course-card_title {
+        margin: 30px 0px;
+    }
+}
+
+/*--------------------------------------
+media-запрос для маленького экрана
+--------------------------------------*/
+@media screen and (max-width: 770px) {
+    section, footer, header, .subscribe, .technologies {
+        padding-left: 30px;
+    }
+
+    /*----------------------------------
+    header style
+    ----------------------------------*/
+    nav {
+        margin-bottom: 50px;
+    }
+
+    .header-main {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 440px;
+        padding: 40px 56px 40px;
+        position: absolute;
+        top: -550px;
+        left: 0;
+        z-index: 6;
+        font-size: 24px;
+        text-align: left;
+        background-color: #F5F9FF;
+        transition: top 1s ease;
+        -o-transition: top 1s ease;
+        -moz-transition: top 1s ease;
+        -webkit-transition: top 1s ease;
+    }
+
+    .header-main.active {
+        display: block;
+        top: 0;
+        transition: top 1s ease;
+        -o-transition: top 1s ease;
+        -moz-transition: top 1s ease;
+        -webkit-transition: top 1s ease;
+    }
+
+    .header-menu__item {
+        margin-bottom: 24px;
+        
+    }
+
+    .header-menu {
+        display: block;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+
+    /*---------------------------------------
+    Hamburger menu
+    ---------------------------------------*/
+    .burger-menu {
+        display: block;
+        position: relative;
+        width: 60px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .burger-menu::before,
+    .burger-menu::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: 3px;
+        background-color: #1A21BC;
+        transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .burger-menu::before {
+        top: 10px;
+    }
+
+    .burger-menu::after {
+        bottom: -11px;
+    }
+
+    .burger-menu span {
+        position: absolute;
+        left: 0;
+        top: 24px;
+        z-index: 3;
+        width: 100%;
+        height: 3px;
+        background-color: #1A21BC;
+        transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .burger-menu.active::before {
+        margin-top: 17px;
+        transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .burger-menu.active::after {
+        margin-bottom: 8px;
+        transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .burger-menu.active span {
+        transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    /*---------------------------------------
+    Main style
+    ---------------------------------------*/
+    h1 {
+        font-size: 40px;
+    }
+
+    .main-subtitle {
+        font-size: 16px;
+    }
+
+    .main-features {
+        display: block;
+    }
+
+    .main-form {
+        display: block;
+    }
+
+    .main-form_select {
+        font-size: 16px;
+    }
+
+    .main-form_button {
+        margin-top: 20px;
+    }
+
+    .main-learn {
+        margin-bottom: 24px;
+    }
+
+    /*---------------------------------------
+    Technologies
+    ---------------------------------------*/
+    .technologies-logo {
+        flex-direction: column;
+    }
+
+    .technologies-logo_img {
+        align-self: center;
+        width: 50%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .technologies {
+        padding-bottom: 20px;
+    }
+
+    /*---------------------------------------
+    Mentors and testimonial
+    ---------------------------------------*/
+    .mentors-title, .testimonial-title {
+        font-size: 38px;
+    }
+
+    .mentors-text h3 {
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+
+    .mentors-text p {
+        margin-bottom: 40px;
+    }
+
+    .testimonial-card {
+        margin-bottom: 60px;
+    }
+
+    /*---------------------------------------
+    Subscribe
+    ---------------------------------------*/
+    .subscribe-input {
+        margin-bottom: 26px;
+    }
+
+    .subscribe {
+        margin-bottom: 50px;
+    }
+
+    .subscribe-wrap {
+        display: block;
+    }
+
+    .subscribe-title {
+        font-size: 26px;
+    }
+
+    .subscribe-text {
+        font-size: 16px;
+    }
+
+    /*---------------------------------------
+    Footer
+    ---------------------------------------*/ 
+    footer {
+        margin-top: 10px;
+    }   
+
+    .footer-copy {
+        margin-top: 46px;
+        text-align: left;
+    }
+
+    /*---------------------------------------
+    Register and login
+    ---------------------------------------*/ 
+    .register-wrap, .login-wrap {
+        width: 100%;
+    }
+
+    .course-card_title {
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+
+    /*ModAL*/
+    .modal-content {
+        max-width: 80%;
+        padding: 20px;
+        margin: 50px auto;
+        background-color: #F5F9FF;
+    }
+    
+    .modal-title {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #1A21BC;
+    }
+   
+}

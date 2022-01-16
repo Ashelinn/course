@@ -1,0 +1,34 @@
+﻿.about-foto {
+    margin-left: 40px;
+}
+
+.contacts-title {
+    margin: 54px 0px 30px;
+    padding: 24px 30px;
+    background-color: #F5F9FF;
+}
+
+.container-map {
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-phone {
+    color: #1A21BC;
+    margin-left: 48px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.contacts-time {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contacts-mail {
+    margin-top: 20px;
+}
