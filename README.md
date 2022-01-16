@@ -12,6 +12,7 @@
   <li>Добавление коментариев к курсам осуществляется с помощью ajax-запроса</li>
   <li>На странице курса размещен онлайн-редактор кода (взят с сайта itproger.com)</li>
 </ol>
+<p>В репозиторий выложено короткое видео с демонстрацией работы сайта</p>
 
 ## Игры на сайте
 <p><b>Игра Логика</b> - написана на чистом Java Script</p>
@@ -37,6 +38,7 @@
   <li>Adding comments to courses is done using an ajax request</li>
   <li>On the course page there is an online code editor (itproger.com)</li>
 </ol>
+<p>A short video with a demonstration of the site has been added to the repository</p>
 
 ## Games on site
 <p><b>Game Logic</b> - written in pure Java Script</p>
